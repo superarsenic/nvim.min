@@ -1,4 +1,8 @@
 -- BASIC
+require("statusline")
+require("autocmd")
+require("keymap")
+
 vim.opt.termguicolors = true
 
 vim.o.number = true
@@ -27,6 +31,7 @@ vim.opt.showmode = false
 vim.opt.redrawtime = 10000 -- increase neovim redraw tolerance
 vim.opt.maxmempattern = 20000 -- increase max memory
 
+
 vim.pack.add({
     -- colorschemes
     { src = "https://github.com/nyoom-engineering/oxocarbon.nvim" },
@@ -42,8 +47,4 @@ require("mini.pick").setup()
 require("oil").setup()
 
 vim.cmd("colorscheme vague")
-
-require("statusline")
-require("autocmd")
-require("keymap")
 
