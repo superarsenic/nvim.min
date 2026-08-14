@@ -36,6 +36,7 @@ vim.pack.add({
     -- colorschemes
     { src = "https://github.com/nyoom-engineering/oxocarbon.nvim" },
     { src = "https://github.com/vague-theme/vague.nvim.git"},
+    { src = "https://github.com/alljokecake/naysayer-theme.nvim"},
 
     -- other
     { src = "https://github.com/stevearc/oil.nvim" },
