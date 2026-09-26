@@ -67,3 +67,8 @@ vim.keymap.set("x", '<leader>{', '<Esc>`>a}<Esc>`<i{', { desc = "Wrap selection 
 vim.keymap.set("x", '<leader>(', '<Esc>`>a)<Esc>`<i(', { desc = "Wrap selection in ( )" })
 vim.keymap.set("x", '<leader><', '<Esc>`>a><Esc>`<i<', { desc = "Wrap selection in < >" })
 
+vim.keymap.set('i', '(', '()<Left>', { noremap = true })
+vim.keymap.set('i', '[', '[]<Left>', { noremap = true })
+vim.keymap.set('i', '{', '{}<Left>', { noremap = true })
+vim.keymap.set('i', '"', '""<Left>', { noremap = true })
+vim.keymap.set('i', "'", "''<Left>", { noremap = true })
