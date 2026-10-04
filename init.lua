@@ -1,7 +1,7 @@
 -- BASIC
+require("keymap")
 require("statusline")
 require("autocmd")
-require("keymap")
 
 vim.opt.termguicolors = true
 
